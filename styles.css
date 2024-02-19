@@ -1,0 +1,226 @@
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.productos li:hover{
+    border-color:#c78c19;
+}
+
+.productos li:active{
+    border-color:#088c19;
+}
+
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2{
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding:40px;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
+
+#contactoForm{
+    margin: 0 auto; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.inputPadron{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    width: 60%;
+    height: 30px;
+}
+#contactoForm textarea{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    width: 60%;
+    height: 100px;
+}
+.btnSubmit{
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background-color: #c78c19;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+    width: 62.5%;
+    transition: 0.3s all;
+    
+}
+.btnSubmit:hover{
+    background-color: #757575;
+    transform: scale(1.1);
+}
+.inputCheck{
+    margin-top: 20px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    width: 60%;
+}
+#horarioAtencion{
+    width: 30%;
+}
+table{
+    margin: 40px 40px;
+
+}
+thead{
+    background-color: #585858;
+    color: #dfdfdf;
+}
+th, td{
+    padding: 10px 15px;
+    border: 1px solid #000000;
+}
+#banner{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.titulo-centralizado{
+    text-align: center;
+    margin: 20px 0;
+    color: #d1d0d0;
+    text-shadow: 2px 2px 2px #000000;
+    font-size: x-large;
+}
+.content{
+    margin: 50px 50px;
+    color: #e6e5e5;
+    text-shadow: 2px 2px 2px #000000;
+    font-size: x-large;
+}
+#main-home{
+    background-image: url(imagenes/bg-content-home.jpg);
+    width: 100%;
+    background-position: center;
+    padding: 50px 0;
+    margin: 0;
+    font-style: italic;
+    text-shadow: 2px 2px 2px #000000;
+    font-size: x-large;
+    border-top: #1b1b1b 1px solid;
+    border-bottom: #BBBBBB 1px solid;
+}
+.content p{
+    margin: 20px 0;
+    font-style: italic;
+}
+.diferenciales{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 50px;
+    padding: 20px;
+}
+.diferenciales ul{
+    padding: 0;
+    color: #e6e5e5;
+}
+.diferenciales li{
+    margin: 20px ;
+}
+.diferenciales .items{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.diferenciales .items:hover{
+    color: #c78c19;
+    cursor: grabbing;
+
+}
